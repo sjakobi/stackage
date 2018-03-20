@@ -3830,7 +3830,6 @@ packages:
         - hinotify < 0 # GHC 8.4 via async-2.2.1
         - brick < 0 # GHC 8.4 via base-4.11.0.0
         - hastache < 0 # GHC 8.4 via base-4.11.0.0
-        - tasty-hedgehog < 0 # GHC 8.4 via base-4.11.0.0
         - token-bucket < 0 # GHC 8.4 via base-4.11.0.0
         - GLFW-b < 0 # GHC 8.4 via bindings-GLFW
         - web-routes-boomerang < 0 # GHC 8.4 via boomerang
@@ -4030,9 +4029,6 @@ packages:
         - repa-algorithms < 0 # GHC 8.4 via repa
         - repa-io < 0 # GHC 8.4 via repa
         - ixset < 0 # GHC 8.4 via syb-with-class
-        - rng-utils < 0 # GHC 8.4 via tasty-hedgehog
-        - tasty-discover < 0 # GHC 8.4 via tasty-hedgehog
-        - universum < 0 # GHC 8.4 via tasty-hedgehog
         - wai-middleware-throttle < 0 # GHC 8.4 via token-bucket
         - bench < 0 # GHC 8.4 via turtle
         - docker-build-cacher < 0 # GHC 8.4 via turtle
@@ -4344,10 +4340,8 @@ skipped-tests:
     # These packages
     # These can also be checked for updates periodically.
     - MissingH # via testpack https://github.com/jgoerzen/testpack/issues/11
-    - o-clock # tasty 0.12 via tasty-hedgehog
     - options # ansi-terminal-0.8 via chell
     - path # via genvalidity genvalidity-property
-    - retry # tasty 0.12 via tasty-hedgehog
     - system-fileio # ansi-terminal-0.8 via chell
     - system-filepath # ansi-terminal-0.8 via chell
 
